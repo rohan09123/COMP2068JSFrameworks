@@ -1,8 +1,254 @@
+html,
 body {
-  padding: 50px;
+  height: 100%;
+  padding: none;
+  margin: none;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.512), rgba(0, 0, 0, 0.512)),
+    url(../images/homeBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.myLogo {
+  height: 70px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.navBar {
+  background-color: #272727 !important;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+ul li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  transition: width 0.5s ease;
+}
+
+ul li a:hover::after {
+  width: 100%;
+}
+
+#content {
+  min-height: calc(
+    90vh - 68px
+  ); /* Adjust the height based on the height of the footer */
+}
+
+.about-section {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f3f3a9;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.footer {
+  height: auto;
+  text-align: center;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+.TitleName {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 6em;
+  padding: 20px;
+}
+
+.SummaryLine {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.SummaryPara {
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: serif;
+  justify-self: center;
+  padding-bottom: 20px;
+}
+
+.HomeButtons,
+.HomeSymbols {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.HomeSymbols > div {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.HomeButtons > div {
+  flex: 0 0 30%;
+  min-width: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #343a40;
+  text-align: center !important;
+}
+
+.HomeButtons > div > a {
+  color: white;
+  text-decoration: none;
+}
+
+.mainBody {
+  display: flex;
+}
+
+.HomeAboutContainer {
+  margin: 20px;
+}
+
+.icons {
+  min-width: 1.2em;
+  max-width: 1.2em;
+  width: 1.2em;
+  min-height: 1.2em;
+  max-height: 1.2em;
+  height: 1.2em;
+}
+
+.AboutMain {
+  margin: 50px 0px 50px 0px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f3f3f3a9;
+}
+
+.AboutMain > div > h1 {
+  padding: 50px 0px 70px 0px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+.AboutMain > div > ol > li {
+  list-style: circle;
+}
+
+.AboutMain > div > h2 {
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+.SCHcontainers {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.SCHcontainers > li {
+  flex: 0 0 40%
+}
+
+.ProjectMain {
+  margin: 50px 0px 50px 0px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #00000075;
+}
+
+.ProjectMain > div > h1{
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#portfolio {
+  margin: 50px 20px 50px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#portfolio > div{
+  background-color: #f3f3f3a9;
+  flex: 0 0 40% !important;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+#portfolio > div > img {
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#portfolio > div > p {
+  padding: 20px;
+  text-align: justify;
+}
+
+#portfolio > div > div > a {
+  border-radius: 5px;
+  padding : 10px 20px 10px 20px;
+  background-color: #272727;
+  color: white;
+  text-decoration: none;
+}
+
+.ContactMain {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f3f3f3a9;
+  min-height: 500px;
+  border-radius: 5px;
+}
+
+.ContactMain > div {
+  padding: 50px;
+}
+
+.ContactMain > div > h1 {
+  text-align: center;
+}
+
+.SubmitButton {
+  text-align: center;
+}
+
+.SubmitButton > button {
+  background-color: #272727;
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
 }
