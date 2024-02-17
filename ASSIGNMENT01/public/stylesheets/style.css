@@ -1,3 +1,4 @@
+/* Global Styles */
 html,
 body {
   height: 100%;
@@ -21,6 +22,7 @@ a {
   border-radius: 50%;
 }
 
+/* Navigation Styles */
 .navBar {
   background-color: #272727 !important;
 }
@@ -53,12 +55,14 @@ ul li a:hover::after {
   width: 100%;
 }
 
+/* Main Content Styles */
 #content {
   min-height: calc(
     90vh - 68px
   ); /* Adjust the height based on the height of the footer */
 }
 
+/* Home Page Styles */
 .about-section {
   margin: 50px;
   display: flex;
@@ -67,13 +71,6 @@ ul li a:hover::after {
   background-color: #f3f3f3a9;
   text-align: center;
   border-radius: 5px;
-}
-
-.footer {
-  height: auto;
-  text-align: center;
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
 }
 
 .TitleName {
@@ -97,13 +94,6 @@ ul li a:hover::after {
   padding-bottom: 20px;
 }
 
-.HomeButtons,
-.HomeSymbols {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
 .HomeSymbols > div {
   margin-left: 50px;
   margin-right: 50px;
@@ -125,23 +115,7 @@ ul li a:hover::after {
   text-decoration: none;
 }
 
-.mainBody {
-  display: flex;
-}
-
-.HomeAboutContainer {
-  margin: 20px;
-}
-
-.icons {
-  min-width: 1.2em;
-  max-width: 1.2em;
-  width: 1.2em;
-  min-height: 1.2em;
-  max-height: 1.2em;
-  height: 1.2em;
-}
-
+/* About Page Styles */
 .AboutMain {
   margin: 50px 0px 50px 0px;
   padding: 20px;
@@ -160,12 +134,6 @@ ul li a:hover::after {
   list-style: circle;
 }
 
-.AboutMain > div > h2 {
-  text-align: center;
-  font-style: italic;
-  padding-bottom: 20px;
-}
-
 .SCHcontainers {
   display: flex !important;
   flex-wrap: wrap;
@@ -176,65 +144,13 @@ ul li a:hover::after {
   flex: 0 0 40%
 }
 
-.ProjectMain {
-  margin: 50px 0px 50px 0px;
-  padding: 20px;
-  border-radius: 5px;
-  background-color: #00000075;
-}
-
-.ProjectMain > div > h1{
-  color: white;
-  font-size: 60px;
-  text-align: center;
-  text-decoration: underline;
-}
-
-#portfolio {
-  margin: 50px 20px 50px 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-#portfolio > div{
-  background-color: #f3f3f3a9;
-  flex: 0 0 40% !important;
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-}
-
-#portfolio > div > img {
-  height: 200px;
-  width: auto;
-  border-radius: 50%;
-  margin-bottom: 20px;
-}
-
-#portfolio > div > p {
-  padding: 20px;
-  text-align: justify;
-}
-
-#portfolio > div > div > a {
-  border-radius: 5px;
-  padding : 10px 20px 10px 20px;
-  background-color: #272727;
-  color: white;
-  text-decoration: none;
-}
-
+/* Contact Page Styles */
 .ContactMain {
   margin: 20px;
   padding: 20px;
   background-color: #f3f3f3a9;
   min-height: 500px;
   border-radius: 5px;
-}
-
-.ContactMain > div {
-  padding: 50px;
 }
 
 .ContactMain > div > h1 {
@@ -253,8 +169,10 @@ ul li a:hover::after {
   text-align: center;
 }
 
-.socialLinks {
-  text-decoration: none;
-  color: #6c757d;
-  margin: 5px 10px 0px 10px;
+/* Footer Styles */
+.footer {
+  height: auto;
+  text-align: center;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
 }

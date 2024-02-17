@@ -6,7 +6,6 @@ const nodemailer = require('nodemailer');
 router.use(bodyParser.urlencoded({ extended: false }));
 router.use(bodyParser.json());
 
-/* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Home' });
 });
@@ -26,8 +25,6 @@ router.get('/contact', function(req, res, next) {
 router.post('/send-email', (req, res) => {
   const { name, email, subject, message } = req.body;
 
-  // Add this line to see the structure of the req.body object
-
   const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
@@ -38,7 +35,7 @@ router.post('/send-email', (req, res) => {
 
   const mailOptions = {
       from: 'rohansv1604@gmail.com',
-      to: 'rohansv1604@gmail.com', // <-- Replace with your email address
+      to: 'rohansv1604@gmail.com',
       subject: subject,
       text: `Hello my name is ${name}\n My email is: ${email}\n\nThis message is regarding\n${message}`
   };
