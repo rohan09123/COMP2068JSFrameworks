@@ -8,10 +8,8 @@ Welcome to the official repository for the JS Frameworks course (Winter 2024)! I
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Course Outline](#course-outline)
-- [Code Examples](#code-examples)
 - [Additional Resources](#additional-resources)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## About the Course
 
@@ -45,7 +43,9 @@ To get started with the course, follow these steps:
 
 ## Additional Resources
 
-- Visit my portfolio website built using Node.js: [Click Here!!](https://rohanvyasportfolio.onrender.com) - Check out my projects and learn more about my work in Node.js development.
+- **Portfolio Website:** 
+  - Description: Check out my portfolio website, where I showcase my projects and share insights into my work in Node.js development.
+  - [Click Here!!]([https://www.yourportfoliowebsite.com](https://rohanvyasportfolio.onrender.com)) - View my live portfolio website.
 
 ## Contributing
 
