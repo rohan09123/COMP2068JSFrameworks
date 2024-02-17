@@ -79,7 +79,14 @@ ul li a:hover::after {
 .TitleName {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 6em;
+  color: transparent;
+  background-position: center;
   padding: 20px;
+  background: url(../images/NameBG.jpeg)  ;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+
 }
 
 .SummaryLine {
@@ -251,4 +258,10 @@ ul li a:hover::after {
   border-radius: 5px;
   padding: 10px 20px 10px 20px;
   text-align: center;
+}
+
+.socialLinks {
+  text-decoration: none;
+  color: #6c757d;
+  margin: 5px 10px 0px 10px;
 }
