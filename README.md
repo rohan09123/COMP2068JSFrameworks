@@ -45,7 +45,7 @@ To get started with the course, follow these steps:
 
 - **Portfolio Website:** 
   - Description: Check out my portfolio website, where I showcase my projects and share insights into my work in Node.js development.
-  - [Click Here!!]([https://www.yourportfoliowebsite.com](https://rohanvyasportfolio.onrender.com)) - View my live portfolio website.
+  - [Click Here!!](https://rohanvyasportfolio.onrender.com) - View my live portfolio website.
 
 ## Contributing
 
