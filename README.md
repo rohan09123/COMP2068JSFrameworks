@@ -1,4 +1,4 @@
-# Your Node.js Course Name
+# COMP2068JSFrameworks
 
 Welcome to the official repository for the JS Frameworks course (Winter 2024)! In this repository, you will find all the resources, code examples, and additional materials related to the course.
 
@@ -42,3 +42,15 @@ To get started with the course, follow these steps:
     npm install
 
 4. Explore the course materials and code examples in the repository.
+
+## Additional Resources
+
+- Visit my portfolio website built using Node.js: [Your Portfolio Website](https://www.yourportfoliowebsite.com) - Check out my projects and learn more about my work in Node.js development.
+
+## Contributing
+
+If you find any issues or have suggestions for improvement, feel free to contribute to this repository!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
