@@ -45,12 +45,8 @@ To get started with the course, follow these steps:
 
 ## Additional Resources
 
-- Visit my portfolio website built using Node.js: [Your Portfolio Website](https://www.yourportfoliowebsite.com) - Check out my projects and learn more about my work in Node.js development.
+- Visit my portfolio website built using Node.js: [Click Here!!](https://rohanvyasportfolio.onrender.com) - Check out my projects and learn more about my work in Node.js development.
 
 ## Contributing
 
 If you find any issues or have suggestions for improvement, feel free to contribute to this repository!
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
