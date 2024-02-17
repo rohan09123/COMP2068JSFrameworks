@@ -73,6 +73,13 @@ ul li a:hover::after {
   border-radius: 5px;
 }
 
+.footer {
+  height: auto;
+  text-align: center;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
 .TitleName {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 6em;
@@ -92,6 +99,13 @@ ul li a:hover::after {
   font-family: serif;
   justify-self: center;
   padding-bottom: 20px;
+}
+
+.HomeButtons,
+.HomeSymbols {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .HomeSymbols > div {
@@ -115,6 +129,23 @@ ul li a:hover::after {
   text-decoration: none;
 }
 
+.mainBody {
+  display: flex;
+}
+
+.HomeAboutContainer {
+  margin: 20px;
+}
+
+.icons {
+  min-width: 1.2em;
+  max-width: 1.2em;
+  width: 1.2em;
+  min-height: 1.2em;
+  max-height: 1.2em;
+  height: 1.2em;
+}
+
 /* About Page Styles */
 .AboutMain {
   margin: 50px 0px 50px 0px;
@@ -134,6 +165,12 @@ ul li a:hover::after {
   list-style: circle;
 }
 
+.AboutMain > div > h2 {
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
 .SCHcontainers {
   display: flex !important;
   flex-wrap: wrap;
@@ -142,6 +179,56 @@ ul li a:hover::after {
 
 .SCHcontainers > li {
   flex: 0 0 40%
+}
+
+/* Projects Page Styles */
+.ProjectMain {
+  margin: 50px 0px 50px 0px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #00000075;
+}
+
+.ProjectMain > div > h1{
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#portfolio {
+  margin: 50px 20px 50px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#portfolio > div{
+  background-color: #f3f3f3a9;
+  flex: 0 0 40% !important;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+#portfolio > div > img {
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#portfolio > div > p {
+  padding: 20px;
+  text-align: justify;
+}
+
+#portfolio > div > div > a {
+  border-radius: 5px;
+  padding : 10px 20px 10px 20px;
+  background-color: #272727;
+  color: white;
+  text-decoration: none;
 }
 
 /* Contact Page Styles */
@@ -153,6 +240,10 @@ ul li a:hover::after {
   border-radius: 5px;
 }
 
+.ContactMain > div {
+  padding: 50px;
+}
+
 .ContactMain > div > h1 {
   text-align: center;
 }
@@ -162,17 +253,17 @@ ul li a:hover::after {
 }
 
 .SubmitButton > button {
+  color: white;
   background-color: #272727;
   width: 200px;
   border-radius: 5px;
   padding: 10px 20px 10px 20px;
   text-align: center;
+  transition-duration: 0.3s;
 }
 
-/* Footer Styles */
-.footer {
-  height: auto;
-  text-align: center;
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
+.socialLinks {
+  text-decoration: none;
+  color: #6c757d;
+  margin: 5px 10px 0px 10px;
 }
